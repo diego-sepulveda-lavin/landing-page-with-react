@@ -3,12 +3,23 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from './componentes/navbar/navbar';
-import Footer from './componentes/navbar/footer';
+import Contenedor from './componentes/contenedor/contenedor'
+import Footer from './componentes/footer/footer';
+
+function Main (){
+    return (
+        <>
+            <Navbar />
+            <Contenedor />
+            <Footer />
+        </>
+    )
+}
 
 
 
 
 
 
-ReactDOM.render(<Navbar />, document.getElementById('root'))
+ReactDOM.render(<Main />, document.getElementById('root'))
 
