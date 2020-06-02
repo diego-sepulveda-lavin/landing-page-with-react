@@ -6,12 +6,12 @@ import Cards from '../cards/cards'
 function Contenedor() {
     return(
         <div class="container">
-                <Jumbotron title = "Bienvenidos" text = "texto de jumbotron" button = "adios!" />
+                <Jumbotron title = "Bienvenidos" text = "Landing page hecha con React y Bootstrap" button = "Boton de Jumbotron" />
              <div class="row text-center">
-                <Cards title = "tarjeta 1" text = "texto prueba 1" button = "boton 1"/>
-                <Cards title = "tarjeta 2" text = "texto prueba 2" button = "boton 2"/>
-                <Cards title = "tarjeta 3" text = "texto prueba 3" button = "boton 3"/>
-                <Cards title = "tarjeta 4" text = "texto prueba 4" button = "boton 4"/>
+                <Cards title = "Tarjeta 1" text = "Texto de tarjeta 1" button = "Boton 1"/>
+                <Cards title = "Tarjeta 2" text = "Texto de tarjeta 2" button = "Boton 2"/>
+                <Cards title = "Tarjeta 3" text = "Texto de tarjeta 3" button = "Boton 3"/>
+                <Cards title = "Tarjeta 4" text = "Texto de tarjeta 4" button = "Boton 4"/>
              </div>
             
         </div>

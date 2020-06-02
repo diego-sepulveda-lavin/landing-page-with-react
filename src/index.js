@@ -10,9 +10,9 @@ import Footer from './componentes/footer/footer';
 function Main (){
     return (
         <>
-            <Navbar title = "Landing page with React" link1 = "link 1" link2 = "link 2" link3 = "link 3" link4 = "link 4"/>
+            <Navbar title = "Landing page with React" link1 = "Link 1" link2 = "Link 2" link3 = "Link 3" link4 = "Link 4"/>
             <Contenedor />
-            <Footer copyright = "hola a todos" text = "4Geeks 2020"/>
+            <Footer copyright = "Copyright" text = "4Geeks 2020"/>
         </>
     )
 }
