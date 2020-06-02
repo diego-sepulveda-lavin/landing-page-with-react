@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
 
 import Navbar from './componentes/navbar/navbar';
 import Contenedor from './componentes/contenedor/contenedor'
